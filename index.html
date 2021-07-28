@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="JavaScript training ">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header class="title">
+            <h1>Calculator</h1>
+        </header>
+        <main class="calculator">
+            <section class ="display">
+                <input type="text" id="result" class="screen"></input>
+            </section>
+
+            <section class="buttons">
+                <button type="button" class="btn btn-grey" data-num="9">9</button>
+                <button type="button" class="btn btn-grey" data-num="8">8</button>
+                <button type="button" class="btn btn-grey" data-num="7">7</button>
+                <button type="button" class="btn btn-operator " data-num="*"> * </button>
+                <button type="button" class="btn btn-grey" data-num="6">6</button>
+                <button type="button" class="btn btn-grey" data-num="5">5</button>
+                <button type="button" class="btn btn-grey" data-num="4">4</button>
+                <button type="button" class="btn btn-operator" data-num="/"> / </button>
+                <button type="button" class="btn btn-grey" data-num="3">3</button>
+                <button type="button" class="btn btn-grey" data-num="2">2</button>
+                <button type="button" class="btn btn-grey" data-num="1">1</button>
+                <button type="button" class="btn btn-operator" data-num="-"> - </button>
+                <button type="button" class="btn btn-grey" data-num="0">0</button>
+                <button type="button" class="btn btn-grey" data-num=".">.</button>
+                <button type="button" id='equal' class="btn btn-equal">=</button>
+                <button type="button" class="btn btn-operator" data-num="+"> + </button>
+                <button type="button" class="btn btn-clear">CLR</button>
+            </section>
+        </main>
+        <script src="app.js"></script>
+    </body>
+</html>
